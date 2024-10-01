@@ -1,7 +1,7 @@
 import { serve } from "https://deno.land/std@0.177.0/http/server.ts";
 
 const IP = "129.154.234.241";  // Replace with your IP
-const PORT = 43210;  // Replace with your port
+const PORT = "43210";  // Replace with your port
 
 // Handler function to forward requests
 async function handler(req) {
